@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    justify-content: space-between; /*joga para as extremidades*/
+    background-color: #322C37;
+    border-bottom: 10px solid #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}

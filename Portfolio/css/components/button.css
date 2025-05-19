@@ -1,0 +1,43 @@
+.button{
+    display: inline-block;
+    background-color: #456c4b;
+    height: 60px; /*altura*/
+    line-height: 60px; /*A propriedade define a altura da linha do texto*/
+    padding-left: 10px; /*Espaçamento do botao esquerda*/
+    padding-right: 20px; /*Tamanho do botao, direita*/
+    box-shadow: 5px 5px 0px #000000; /*10px eixo x, 10px eixo y, 0px blur*/
+    margin-right: 0;
+    transition: transform 100ms linear; /*animar sem o mouse estar em cima*/
+    font-family: "Fira Code";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #000; 
+    transform:scale(1.1);
+  }
+
+.button2{
+    display: inline-block;
+    background: var(----color-black-third, #828282);
+    box-shadow: 5px 5px 0px 0px #000;
+    height: 60px; /*altura*/
+    line-height: 60px; /*A propriedade define a altura da linha do texto*/
+    padding-left: 10px; /*Espaçamento do botao esquerda*/
+    padding-right: 20px; /*Tamanho do botao, direita*/
+    box-shadow: 5px 5px 0px #000000; /*10px eixo x, 10px eixo y, 0px blur*/
+    margin-right: 0;
+    transition: transform 100ms linear; /*animar sem o mouse estar em cima*/
+    font-family: "Fira Code";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: #000000;
+    transform: scale(1.1);
+}
+a.button2:before{
+    display: none;
+}
